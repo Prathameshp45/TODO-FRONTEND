@@ -1,0 +1,63 @@
+.task-details-container {
+  background-color: #f8f9fa;
+}
+
+.task-details-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 0; 
+  box-shadow: none; 
+}
+
+.task-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.task-meta {
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+.task-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.go-back-btn {
+  font-size: 1rem;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.edit-icon, .delete-icon, .alert-icon {
+  color: #ff6b6b;
+  cursor: pointer;
+  font-size: 1.5rem;
+  margin-right: 5px;
+}
+
+.priority-low {
+  color: #28a745;
+}
+
+.priority-moderate {
+  color: #ffc107;
+}
+
+.priority-high {
+  color: #dc3545;
+}
+
+.status-not-started {
+  color: #ff6b6b;
+}
+
+.status-in-progress {
+  color: #17a2b8;
+}
+
+.status-completed {
+  color: #28a745;
+}
+

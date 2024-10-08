@@ -1,0 +1,55 @@
+/* Sidebar styling */
+.sidebar {
+    background-color: #28a745; /* Use a green shade */
+    height: 100vh;
+    padding: 0;
+    color: white;
+    width: 250px;
+    position: fixed;
+}
+  
+/* Center the profile and text */
+.sidebar .container {
+    padding-top: 20px;
+}
+  
+/* Style for the Nav links */
+.nav-link-custom {
+    color: white;
+    padding: 15px 20px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+  
+.nav-link-custom:hover {
+    background-color: transparent;
+    opacity: 0.8;
+}
+  
+/* Icon styling */
+.nav-link-custom svg {
+    margin-right: 10px;
+}
+  
+/* Remove underline from links */
+.nav-link-custom:hover {
+    text-decoration: none;
+}
+  
+/* Text styling */
+.sidebar h5 {
+    color: white;
+}
+  
+.sidebar p {
+    color: rgba(255, 255, 255, 0.7);
+}
+  
+/* Ensure the Offcanvas matches Sidebar (if applicable) */
+.offcanvas {
+    width: 250px;
+    background-color: #28a745; /* Use the same green shade */
+    color: white;
+}
